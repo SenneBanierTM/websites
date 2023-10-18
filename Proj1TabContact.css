@@ -68,7 +68,7 @@ nav a:hover {
     background-color: #bbb;
 }
 
-/* Formulier waar ik veel teveel tijd heb ingestoken */
+/* Formulier */
 form {
     background-color: #ddd;
     padding: 20px;
@@ -102,4 +102,24 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #3f615b;
+}
+
+/*Info*/
+#info p {
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#info h2 {
+    margin-bottom: 10px;
+}
+
+#info p {
+    margin-bottom: 10px;
+}
+
+#info iframe {
+    margin-top: 10px;
 }

@@ -23,23 +23,31 @@
     </nav>
 
     <div class="content">
-        <form action="#" method="post">
+        <form method="post" action="https://tm-statweb.be/sendmail.php">
             <label for="naam">Naam:</label>
-            <input type="text" id="naam" name="naam" required><br>
-
+            <input type="text" id="naam" name="naam"><br>
+    
             <label for="email">E-mail adres:</label>
-            <input type="email" id="email" name="email" required><br>
-
+            <input type="email" id="email" name="email"><br>
+    
             <label for="onderwerp">Onderwerp:</label>
-            <input type="text" id="onderwerp" name="onderwerp" required><br>
-
+            <input type="text" id="onderwerp" name="onderwerp"><br>
+    
             <label for="vraag">Vraag:</label><br>
-            <textarea id="vraag" name="vraag" rows="4" cols="50" required></textarea><br>
-
+            <textarea id="vraag" name="vraag" rows="4" cols="50"></textarea><br>
+    
+            <input type="hidden" name="studentemail" value="r0988819@student.thomasmore.be">
             <input type="submit" value="Verstuur">
-        </form>
-    </div>
+        <div>
 
+<div id="info">
+    <h2>Contactgegevens</h2>
+    <p>Naam: Senne Banier
+    <br>E-mailadres: r0988819@student.thomasmore.be
+    <br>Adres Thomas More hogeschool Lier: Antwerpsestraat 99, 2500 Lier
+    </p>
+    <iframe src="https://www.google.com/maps/place/Thomas+More+-+Campus+Lier/@51.1340093,4.5638518,17z/data=!3m1!4b1!4m6!3m5!1s0x47c3fc7d3dedf437:0x98e97032e240eff9!8m2!3d51.134006!4d4.5664267!16s%2Fg%2F1tk628qg?entry=ttu"
+        width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
 </body>
-
 </html>

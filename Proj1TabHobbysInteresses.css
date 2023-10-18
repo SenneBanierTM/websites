@@ -1,3 +1,4 @@
+/* Standaard opmaak bovenkant */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -30,64 +31,64 @@ nav a {
 nav a:hover {
     background-color: #555;
 }
-.content {
+
+/* Opmaak container */
+.container {
+    display: flex;
+}
+
+/* Opmaak lijst */
+.list {
+    width: 30%;
     padding: 20px;
-    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #497e76;
+    color: #000;
+    text-align: center;
+    
 }
 
-.content h2 {
-    clear: both;
-    background-color: #ddd;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    text-align: left;
+.list ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.content p {
-    background-color: #ddd;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    text-align: left;
+.list li {
+    margin-bottom: 10px;
 }
 
-.content img {
-    float: right;
-    margin-left: 20px;
-    max-width: 200px; /
-    max-height: 200px; 
+/* Opmaak content */
+.content {
+    width: 65%;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.content h2 {
-    clear: both;
-    background-color: #ddd;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    display: inline-block;
-    text-align: left;
-}
-
-.content img {
-    max-width: 200px;
-    max-height: 200px;
-    vertical-align: middle;
-}
-
-
-/*test*/
-.paragraaf {
+.paragraph1,
+.paragraph2 {
     font-family: Arial, sans-serif;
     border: 2px solid #000000;
     border-radius: 25px;
-    background-color: #497e76;
-    padding: 50px 50px;
+    padding: 50px;
+    box-sizing: border-box;
     color: rgb(0, 0, 0);
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-style: italic;
-    width: 80%;
-    margin: auto;
-    padding-bottom: 50px
-    }
+    text-align: left;
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.paragraph1 img,
+.paragraph2 img {
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+.paragraph1 p,
+.paragraph2 p {
+    width: 60%;
+}
