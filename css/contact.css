@@ -35,6 +35,15 @@ nav a:hover {
     background-color: #555;
 }
 
+nav .custom-link {
+    color: #fff;
+}
+
+nav .custom-link:hover {
+    background-color: #555;
+}
+
+
 .container {
     margin-top: 20px;
 }

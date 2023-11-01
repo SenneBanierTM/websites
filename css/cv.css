@@ -29,6 +29,15 @@ body {
   nav a:hover {
     background-color: #555;
   }
+
+  nav .custom-link {
+    color: #fff;
+}
+
+nav .custom-link:hover {
+    background-color: #555;
+}
+
   
   #content {
     background-color: white;

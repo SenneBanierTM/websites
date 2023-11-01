@@ -35,6 +35,14 @@ nav a:hover {
     background-color: #555;
 }
 
+nav .custom-link {
+    color: #fff;
+}
+
+nav .custom-link:hover {
+    background-color: #555;
+}
+
 .container {
     margin-top: 20px;
 }
@@ -116,6 +124,7 @@ nav a:hover {
 
 
   .carousel-item {
+    margin-top: 70px;
     min-height: 400px;
     position: relative;
   }
@@ -123,3 +132,4 @@ nav a:hover {
   .carousel-control-prev, .carousel-control-next {
     z-index: 2;
   }
+
