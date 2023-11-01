@@ -103,22 +103,23 @@ nav a:hover {
     object-fit: cover;
 }
 
-.carousel-text {
-    position: relative;
-    animation: moveText 4s infinite;
+
+  .carousel-text {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    text-align: left;
   }
-  
-  @keyframes moveText {
-    0% {
-      opacity: 0;
-      transform: translateY(100%);
-    }
-    50% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    100% {
-      opacity: 0;
-      transform: translateY(-100%);
-    }
+
+
+  .carousel-item {
+    min-height: 400px;
+    position: relative;
+  }
+
+  .carousel-control-prev, .carousel-control-next {
+    z-index: 2;
   }
